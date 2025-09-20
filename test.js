@@ -185,39 +185,44 @@ console.log(typeof undefined)  //=>undefined
 // console.log(Array.of(score1, score2, score3));// sabka ek Array bana dega
 
 
+// const arr1 = ["Animesh","pranav",];
+// const arr2 = ["Pooja","Anshu","priyanshu"];
+
+// const merge = [...arr1, ...arr2]; //Spred oprator
+// console.log(merge);
 
  // ___________________________________________     objects     ___________________________________________console.log ("Animesh");
 
- //Object literals 
+//  Object literals 
 
 
-//  const mySym = Symbol("key1")  // Declaring Symbol data type
+ const mySym = Symbol("key1")  // Declaring Symbol data type
 
 
-//  const jsUser = {
-//     [mySym]: "myKey1", //Using Symbol as a key use []
-//     name: "Animesh",
-//     age: 20,
-//     location: "Smp",
-//     email: "animesh@gmail.com",
-//     "fullName": "Animesh Thakur", // Interviewer can ask
-//  }
+ const jsUser = {
+    [mySym]: "myKey1", //Using Symbol as a key use []
+    name: "Animesh",
+    age: 20,
+    location: "Smp",
+    email: "animesh@gmail.com",
+    "fullName": "Animesh Thakur", // Interviewer can ask
+ }
 
 
-//  console.log(jsUser.mySym);
-//  console.log(jsUser.name);
-//  console.log(jsUser["age"]); //ish method me as a String hi dena hoga
-//  console.log(jsUser["email"]);
+ console.log(jsUser.mySym);
+ console.log(jsUser.name);
+ console.log(jsUser["age"]); //ish method me as a String hi dena hoga
+ console.log(jsUser["email"]);
 
-//   console.log(jsUser["fullName"]); //In objectkeys are already treted as string
+ console.log(jsUser["fullName"]); //In objectkeys are already treted as string
 
 
-//  jsUser.email = "animesh1234@gmail.com" // can change value 
-//  console.log(jsUser.email);
+ jsUser.email = "animesh1234@gmail.com"; // can change value 
+ console.log(jsUser.email);
 
-//  Object.freeze(jsUser); // after this value cant cahnge 
-//  jsUser.email = "pran@gmail.com";
-//  console.log(jsUser.email); // output-> animesh1234@gmail.com value is not changed
+ Object.freeze(jsUser); // after this value cant cahnge 
+ jsUser.email = "pran@gmail.com";
+ console.log(jsUser.email); // output-> animesh1234@gmail.com value is not changed
 
 
 // const tinderUser = new Object()  //Singelton object 
@@ -250,6 +255,7 @@ console.log(typeof undefined)  //=>undefined
 
 
 //PASSING ANY OBJ INTO FUNCTION
+
 // const user = {
 //   username: "Animesh",
 //   price: 1000
@@ -259,7 +265,6 @@ console.log(typeof undefined)  //=>undefined
 //   console.log(`Username is ${anyobj.username} and price is ${anyobj.price}.`);
 
 // }
-
 // handleobj(user);
 
 // console.log(addone(10)); // can beaccessed before initialization
@@ -288,6 +293,7 @@ console.log(typeof undefined)  //=>undefined
 
 
 //___________________________________________  *ARROW FUNCTION*   ___________________________________________
+
 // const addTwo = ( num1, num2) => {
 //   return num1 + num2 ;
 // }
@@ -311,7 +317,27 @@ console.log(typeof undefined)  //=>undefined
 
 
 
-//___________________________________________  *ARROW FUNCTION*   ___________________________________________
+//___________________________________________      ___________________________________________
+
+// let str1 = "Animesh ";
+// let str2 = "Anand";
+// let str3 = str1 + str2;
+
+// console.log(str3);
+
+// let str1 = "Animesh ";
+
+// let age = 21;
+
+// console.log()
+
+
+// console.log(1 + "1")  //11
+// console.log("1" + 1) //11
+// console.log("1" + 2 + 3); //123
+// console.log( 1 +2 + "3") //33
+// console.log(  ) ;
+
 
 
 
