@@ -2,7 +2,7 @@
  //--> Let const var
 //  console.log("Animesh")
 
-//  console.log ("Kya be lawde kaise ho? ")
+//  console.log ("Kya be londe kaise ho? ")
 
 //  const AccountId = "1234556789"
 //  let AccountEmail = "animesh@gmail.com"
@@ -185,44 +185,44 @@ console.log(typeof undefined)  //=>undefined
 // console.log(Array.of(score1, score2, score3));// sabka ek Array bana dega
 
 
-// const arr1 = ["Animesh","pranav",];
-// const arr2 = ["Pooja","Anshu","priyanshu"];
+const arr1 = ["Animesh","pranav",];
+const arr2 = ["Pooja","Anshu","priyanshu"];
 
-// const merge = [...arr1, ...arr2]; //Spred oprator
-// console.log(merge);
+const merge = [...arr1, ...arr2]; //Spred oprator
+console.log(merge);
 
  // ___________________________________________     objects     ___________________________________________console.log ("Animesh");
 
 //  Object literals 
 
 
- const mySym = Symbol("key1")  // Declaring Symbol data type
+//  const mySym = Symbol("key1")  // Declaring Symbol data type
 
 
- const jsUser = {
-    [mySym]: "myKey1", //Using Symbol as a key use []
-    name: "Animesh",
-    age: 20,
-    location: "Smp",
-    email: "animesh@gmail.com",
-    "fullName": "Animesh Thakur", // Interviewer can ask
- }
+//  const jsUser = {
+//     [mySym]: "myKey1", //Using Symbol as a key use []
+//     name: "Animesh",
+//     age: 20,
+//     location: "Smp",
+//     email: "animesh@gmail.com",
+//     "fullName": "Animesh Thakur", // Interviewer can ask
+//  }
 
 
- console.log(jsUser.mySym);
- console.log(jsUser.name);
- console.log(jsUser["age"]); //ish method me as a String hi dena hoga
- console.log(jsUser["email"]);
+//  console.log(jsUser.mySym);
+//  console.log(jsUser.name);
+//  console.log(jsUser["age"]); //ish method me as a String hi dena hoga
+//  console.log(jsUser["email"]);
 
- console.log(jsUser["fullName"]); //In objectkeys are already treted as string
+//  console.log(jsUser["fullName"]); //In objectkeys are already treted as string
 
 
- jsUser.email = "animesh1234@gmail.com"; // can change value 
- console.log(jsUser.email);
+//  jsUser.email = "animesh1234@gmail.com"; // can change value 
+//  console.log(jsUser.email);
 
- Object.freeze(jsUser); // after this value cant cahnge 
- jsUser.email = "pran@gmail.com";
- console.log(jsUser.email); // output-> animesh1234@gmail.com value is not changed
+//  Object.freeze(jsUser); // after this value cant cahnge 
+//  jsUser.email = "pran@gmail.com";
+//  console.log(jsUser.email); // output-> animesh1234@gmail.com value is not changed
 
 
 // const tinderUser = new Object()  //Singelton object 
@@ -302,7 +302,7 @@ console.log(typeof undefined)  //=>undefined
 // const addTwo = ( num1, num2) =>  num1 + num2 ; //Implicit return
 // console.log(addTwo(5,7));
 
-//IMMEDIATELY INVOCKED FUNCTION EXPRESSION (IIFE)
+// //IMMEDIATELY INVOCKED FUNCTION EXPRESSION (IIFE)
 // (function Db(){   // named IIFE
 //   console.log(`Database connected`);
 // })(); //why ; -> This fn doesnt where to stop , so it will stop at the end of the script and will be executed only once.
@@ -343,4 +343,10 @@ console.log(typeof undefined)  //=>undefined
 
 
 
+//Diffrence bt == and === 
+//
 
+
+console.log(1 * "1")
+console.log(1 / "2")
+console.log(1 * "1")

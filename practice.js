@@ -1,10 +1,26 @@
 
 
-const person = {
-    Fname:"Animesh",
-    Lname:"Anand",
-    Age:20,
-    Ecolor:" Brown",
+// const person = {
+//     Fname:"Animesh",
+//     Lname:"Anand",
+//     Age:20,
+//     Ecolor:" Brown",
+// }
+
+// console.log(person.Fname);
+
+// var arr = ["Animesh","pranav","Anand","pintu","pankaj"]
+
+// arr.forEach(function(value, index){
+//     console.log(index + " : " + value);
+// })
+
+
+//reduce function
+
+const greet = (name)=>{
+    console.log(`Hello Mr.${name}! `);
 }
 
-console.log(person.Fname);
+greet('Animesh');
+greet("Pranav");
