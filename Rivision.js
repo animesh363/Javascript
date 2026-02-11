@@ -19,7 +19,7 @@ console.log(result)
 // let a=[2,5,6,8]
 // let result=a.find(n=>n>5)
 // console.log(result)//6
-
+        
 // let a=[2,5,6,8]
 // let result=a.reverse(a)
 // console.log(result)//

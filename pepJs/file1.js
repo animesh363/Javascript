@@ -49,5 +49,99 @@ let b = 5
 // console.log(a>b && a<b); //both concn should be true
 // console.log(a>b || a<b); //any one should be true
 
-console.log(!a>b);
+// console.log(!a>b);
 
+
+//IF-ELSE   
+// if(a>b){
+//     console.log("a is greator");
+// }else{
+//     console.log("b is greator");
+// }
+
+// if(a>b) console.log("a is greator");
+// else console.log("b is greator");   //it will work for one line only
+
+ //?           ____Day02____           
+
+// let i=1;
+// while(i<=5){
+//     console.log(i);
+//     i++;
+// }
+
+
+// let i=1;
+// while(i<=5){
+//     i++
+//     console.log(i); //2, 3
+//     if(i==3){
+//         break;
+//     }
+// }
+
+
+// let i=1;
+// while(i<=5){
+//     i++
+//     if(i==3){
+//          continue; //3 skiped
+//     }
+//     console.log(i)
+// }
+
+
+// for(let i=1;i<=5;i++){
+//     console.log(i);
+//     if(i==3){
+//         break;
+//     }
+// }
+
+
+// for(let i=1;i<=5;i++){
+//     if(i==3){
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+
+
+// sing for loop priint 5,10...30?
+// let n=5;
+// for(let i=1;i<=6;i++){
+//     console.log(n*i);
+// }
+// for(let i=5;i<=30;i+=5){
+//     console.log(i);
+// }
+
+
+
+//              ____Function____                    
+// function greet(){
+//     console.log("Good morning");
+// }
+// greet();
+
+// function greet(name){
+//     console.log("Hello " + name);
+// }
+
+// greet("Animesh"); //we are passsing argumet and we can change every time we are calling
+// greet("pranav")
+
+// function greet(name, place){
+//     // console.log("My name is " + name + ". I am from " + place);
+//     console.log(`My name is ${name}. I am from ${place}`);
+// }
+
+// greet("Animesh" , "Bihar")
+
+
+//Write a function to accept two numbers and print sum?
+function sum(a, b){
+    console.log("Sum = "+ (a+b));
+}
+sum(3,5)
