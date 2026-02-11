@@ -242,10 +242,21 @@ console.log("line 3")
 // console.log(typeof score);//object
 // console.log(typeof city);//undefined
 
-let a = "10";
-console.log(typeof a);//string
+// let a = "10";
+// console.log(typeof a);//string
 
 
-let num = Number(a) //typecasting
-console.log(typeof num);
+// let num = Number(a) //typecasting
+// console.log(typeof num);
 
+
+
+// let a ="true";
+// console.log(typeof a);
+// let flag = Boolean(a)
+// console.log(typeof flag)
+
+let a = 10;
+console.log(typeof a);
+let str = String(a)
+console.log(typeof str);
