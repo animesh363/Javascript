@@ -22,8 +22,8 @@ console.log("line 3")
 
 
 //Oprators
-let a=10
-let b = 5
+// let a=10
+// let b = 5
 
 // console.log("Sun = " + a+b)
 // console.log("diff = " + (a-b))
@@ -141,7 +141,82 @@ let b = 5
 
 
 //Write a function to accept two numbers and print sum?
-function sum(a, b){
-    console.log("Sum = "+ (a+b));
+// function sum(a, b){
+//     console.log("Sum = "+ (a+b));
+// }
+// sum(3,5)
+
+
+// function add(x,y){
+//     return x+y;
+// }
+// let result = add(5,7); //While returnig we have to store in some variable
+// console.log(result);
+
+// console.log("Table of Two");
+// for(let i=1;i<=10;i++){
+//     console.log(2*i);
+// }
+
+
+
+//?Diffrences bt slet var and const
+// var: Declares variables with function or global scope and allows re-declaration and updates within the same scope.
+// let: Declares variables with block scope, allowing updates but not re-declaration within the same block.
+// const: Declares block-scoped variables that cannot be reassigned after their initial assignment.
+
+
+
+
+
+//Let-> block scope
+// let a =10;
+// console.log(a);
+// a=20;
+// console.log(a);
+
+// let a=10;
+// function f1(){
+//     let a=20
+//     console.log(a);
+// }
+// console.log(a);
+// f1()
+
+
+// let a=10;
+// function f1(){
+//     let a=20
+//     if(3>1){
+//         let a=30
+//         console.log(a);
+//     }
+//     console.log(a);
+// }
+// f1()
+// console.log(a);
+
+
+
+//Var
+
+
+var a=10;
+function f1(){
+    var a=20
+    if(3>1){
+        var a=30
+        console.log(a);
+    }
+    console.log(a);
 }
-sum(3,5)
+f1()
+console.log(a);
+
+// var a=10
+
+
+// const a =10;
+// console.log(a);
+// a=20; //Reassigning not possible
+// console.log(a);
