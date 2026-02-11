@@ -201,17 +201,17 @@ console.log("line 3")
 //Var
 
 
-var a=10;
-function f1(){
-    var a=20
-    if(3>1){
-        var a=30
-        console.log(a);
-    }
-    console.log(a);
-}
-f1()
-console.log(a);
+// var a=10;
+// function f1(){
+//     var a=20
+//     if(3>1){
+//         var a=30
+//         console.log(a);
+//     }
+//     console.log(a);
+// }
+// f1()
+// console.log(a);
 
 // var a=10
 
@@ -220,3 +220,32 @@ console.log(a);
 // console.log(a);
 // a=20; //Reassigning not possible
 // console.log(a);
+
+
+// firstName = "John" //camel case
+// first_name = "John"
+// FirstName = "John"
+
+
+
+// let a=10
+// let name ="Animesh";
+// let flag =true
+// let rating = 4.5
+// let score =null
+// let city
+
+// console.log(typeof a);//number
+// console.log(typeof name);//string
+// console.log(typeof flag);//boolean
+// console.log(typeof rating);//number
+// console.log(typeof score);//object
+// console.log(typeof city);//undefined
+
+let a = "10";
+console.log(typeof a);//string
+
+
+let num = Number(a) //typecasting
+console.log(typeof num);
+
