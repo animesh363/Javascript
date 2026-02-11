@@ -185,11 +185,11 @@ console.log(typeof undefined)  //=>undefined
 // console.log(Array.of(score1, score2, score3));// sabka ek Array bana dega
 
 
-const arr1 = ["Animesh","pranav",];
-const arr2 = ["Pooja","Anshu","priyanshu"];
+// const arr1 = ["Animesh","pranav",];
+// const arr2 = ["Pooja","Anshu","priyanshu"];
 
-const merge = [...arr1, ...arr2]; //Spred oprator
-console.log(merge);
+// const merge = [...arr1, ...arr2]; //Spred oprator
+// console.log(merge);
 
  // ___________________________________________     objects     ___________________________________________console.log ("Animesh");
 
@@ -256,16 +256,16 @@ console.log(merge);
 
 //PASSING ANY OBJ INTO FUNCTION
 
-// const user = {
-//   username: "Animesh",
-//   price: 1000
-// }
+const user = {
+  username: "Animesh",
+  price: 1000
+}
 
-// function handleobj(anyobj){
-//   console.log(`Username is ${anyobj.username} and price is ${anyobj.price}.`);
+function handleobj(anyobj){
+  console.log(`Username is ${anyobj.username} and price is ${anyobj.price}.`);
 
-// }
-// handleobj(user);
+}
+handleobj(user);
 
 // console.log(addone(10)); // can beaccessed before initialization
 // function addone(num){

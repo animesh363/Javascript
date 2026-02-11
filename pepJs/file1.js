@@ -256,7 +256,76 @@ console.log("line 3")
 // let flag = Boolean(a)
 // console.log(typeof flag)
 
-let a = 10;
-console.log(typeof a);
-let str = String(a)
-console.log(typeof str);
+// let a = 10;
+// console.log(typeof a);
+// let str = String(a)
+// console.log(typeof str);
+
+// let a = function greet(){
+//     console.log("Hello world");
+// }
+// console.log(a); //functiona as a expression
+// a()
+
+
+
+//*     ___Arrow function____
+
+// let greet = () =>{
+//     console.log("Hello Mr.");
+// }
+// greet()
+
+
+// let add = (a,b) =>{
+//     console.log(a+b);
+// }
+// add(4,5)
+
+
+// const add = (a,b) =>{
+//     return a+b;
+// }
+// const result = add(5,4);
+// console.log("sum = " +  result);
+
+
+// const add =(a,b) => a + b;
+// const result = add(5,4);
+// console.log(result);
+
+
+// const sqr = (a) => a*a;
+// const result = sqr(5);
+// console.log(result);
+
+// const sqr = (a) =>{
+//     return  a*a;
+// };
+// const result = sqr(5);
+// console.log(result);
+
+
+
+//*     ____Object in js____
+
+const student = {
+    name:"Animesh",
+    age:21
+}
+console.log(student)
+console.log(student.name);
+console.log(student.age);
+
+student.city = "Delhi"
+console.log(student); // city added in the object
+
+student.city ="Mumbai"
+console.log(student); //city changed
+
+
+
+
+
+
+
