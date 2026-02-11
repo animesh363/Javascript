@@ -309,21 +309,46 @@ console.log("line 3")
 
 //*     ____Object in js____
 
-const student = {
-    name:"Animesh",
-    age:21
-}
-console.log(student)
-console.log(student.name);
-console.log(student.age);
+// const student = {
+//     name:"Animesh",
+//     age:21
+// }
+// console.log(student)
+// console.log(student.name);
+// console.log(student.age);
 
-student.city = "Delhi"
-console.log(student); // city added in the object
+// student.city = "Delhi"
+// console.log(student); // city added in the object
 
-student.city ="Mumbai"
-console.log(student); //city changed
+// student.city ="Mumbai"
+// console.log(student); //city changed
+
+// //spread oprator ->using modifying a existing object
+// const obj = {...student,city:"Jalandhar"}
+// console.log(obj);
 
 
+
+
+// let items = () =>{
+//     return 10
+// }
+// const result = items()
+// console.log(result);
+
+
+
+
+
+//*             ____Array____               
+const names = ["Animes", "Shivam", "pranav"]
+// console.log(names);
+// console.log(names[0]);
+// names.push("Newname")
+// console.log(names);
+
+const arr = [...names, "ganesh"]
+console.log(arr);
 
 
 
