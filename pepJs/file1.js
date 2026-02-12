@@ -341,14 +341,25 @@ console.log("line 3")
 
 
 //*             ____Array____               
-const names = ["Animes", "Shivam", "pranav"]
+// const names = ["Animes", "Shivam", "pranav"]
 // console.log(names);
 // console.log(names[0]);
 // names.push("Newname")
 // console.log(names);
 
-const arr = [...names, "ganesh"]
-console.log(arr);
+// const arr = [...names, "ganesh"]
+// console.log(arr);
+
+
+
+let cart =[]
+//click on add to cart button on iphone product
+
+cart = [...cart,"iphone"]
+console.log(cart);
+//click on add to cart button on speaker product
+cart = [...cart , "speaker"]
+console.log(cart);
 
 
 
