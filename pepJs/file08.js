@@ -31,9 +31,14 @@
 
 
 //!True if Every condition is true
-let marks = [78,50,90,120];
-const result = marks.every((mark) =>{
-    return mark >= 50
-})
-if(result) console.log("Pass");
-else console.log("Fail");
+// let marks = [78,50,90,120];
+// const result = marks.every((mark) =>{
+//     return mark >= 50
+// })
+// if(result) console.log("Pass");
+// else console.log("Fail");
+
+
+
+
+
