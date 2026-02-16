@@ -5,8 +5,6 @@
 // }
 // add(4,6)
 
-
-
 // function add(a,b){
 //     console.log(arguments);
 //     console.log(arguments.length); // legtn of the argument
@@ -17,12 +15,16 @@
 
 
 
-function add(...arr){
-    let sum =0
-    for(let i=0;i<arr.length;i++){
-        sum += arr[i]
-    }
-    return sum
-}
-const result = add(7,5,8,9)
-console.log(result);
+// function add(...arr){
+//     let sum =0
+//     for(let i=0;i<arr.length;i++){
+//         sum += arr[i]
+//     }
+//     return sum
+// }
+// const result = add(7,5,8,9)
+// console.log(result);
+
+
+
+
