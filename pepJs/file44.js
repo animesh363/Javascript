@@ -1,15 +1,24 @@
-function f1() {
+function f1(x) {
   return new Promise((resolve,reject)=>{
     setTimeout(()=>{
-        console.log("This is f1 function")
-        resolve()
+        if (x%2 === 0){
+            resolve(`${x} is a even number`)
+        }else{
+            reject("Odd number not allowed")
+        }
     },3000)
   });
 }
 
 async function main(){
-    await f1(5)
-    console.log("program completed sucessfully!");
-}
+    let num = Math.round(Math.random()*10)
+    try{
 
+        const result =  await f1(num);
+        console.log(result);
+        console.log("program completed sucessfully");
+    }catch(err){
+        console.log(err);
+    }
+}
 main()
