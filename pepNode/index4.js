@@ -8,12 +8,12 @@ app.listen(8080, () => {
 
 app.get("/:id", (req, res) => {
     console.log(req.url);
-    res.send(req.params.id)   // only one send
+    res.send(req.params.id)   
 })
 
 app.get("/:id/:email", (req, res) => {
     console.log(req.url);
-    res.send(req.params)      // only one send
+    res.send(req.params)      
 })
 
 app.get("/id/:id/email/:email", (req, res) => {
