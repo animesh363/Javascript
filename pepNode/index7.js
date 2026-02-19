@@ -12,5 +12,5 @@ app.get("/",(req,res)=>{
         role:"Student"
     };
     // res.send(user);
-    res.json(user); //eill get in json format me
+    res.json(user); //will get in json format me
 })
