@@ -30,7 +30,12 @@ app.post("/", (request, response) => {
   response.json(users);
 });
 
-//
+
+app.delete("/:id", (request, response) => {
+
+});
+
+//users
 // req.query.name
 // req.params.name
 
