@@ -1,4 +1,4 @@
-const url = "https://jsonplaceholder.typicode.com/users"; //API link
+const url = "http://localhost:8080/"; //API link
 
 async function fetchData(){
     const response = await fetch(url)

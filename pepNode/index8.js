@@ -1,24 +1,41 @@
-import express from "express";
-
+import express, { request, response } from "express";
 const app = express();
-
-const users = [
-  { id: 1, name: "Animesh", email: "animesh@gmail.com", role: "student" },
-  { id: 2, name: "Pranav", email: "pranav@gmail.com", role: "student" },
-  { id: 3, name: "Vishal", email: "vishal@gmail.com", role: "student" }
-];
-function getUserById(req, res) {
-  const userId = parseInt(req.params.id);
-
-  const user = users.find((u) => u.id === userId);
-
-  if (!user) {
-    return res.status(404).send("User not found");
-  }
-
-  res.json(user);
-}
-app.get("/:id", getUserById);
 app.listen(8080, () => {
-  console.log("Server started on http://localhost:8080");
+  console.log("Server Started....");
 });
+
+
+const greet = () =>{
+  console.log("Hello Duniyan!");
+
+};
+
+app.use(greet)
+
+app.use(express.json())
+let users = [
+  { id: 1, name: "Animesh", email: "ani@mail.com", role: "Student" },
+  { id: 2, name: "Golu", email: "golu@mail.com", role: "admin" },
+  { id: 3, name: "Tolu", email: "tolu@mail.com", role: "Student" },
+];
+
+app.get("/", (request, response) => {
+  response.json(users);
+});
+
+app.post("/", (request, response) => {
+//   console.log(request.body);
+  const user = request.body;
+  users.push(user)
+  response.json(users);
+});
+
+//
+// req.query.name
+// req.params.name
+
+// req.body.name
+// {
+//   "name":"Animesh"
+// }
+//req.header
