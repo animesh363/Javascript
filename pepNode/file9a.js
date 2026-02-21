@@ -23,3 +23,8 @@ app.get("/:id", (req, res) => {
 app.listen(8080, () => {
   console.log("Server running on http://localhost:8080");
 });
+
+const logger = (req,res,next) => {
+    const newuse =req1.body;
+     
+}
