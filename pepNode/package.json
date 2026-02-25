@@ -1,6 +1,7 @@
 {
   "name": "pepnode",
   "version": "1.0.0",
+  "type": "module",
   "main": "index4.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +14,7 @@
     "bcrypt": "^6.0.0",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.2",
     "nodemon": "^3.1.11"
   }
 }
